@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+button,
+input {
+  all: unset;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 5px 0;
+}
+button {
+  background-color: rgb(30, 200, 250);
+}
