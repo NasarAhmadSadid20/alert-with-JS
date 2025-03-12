@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 98vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,15 +14,14 @@ body {
   display: flex;
   flex-direction: column;
 }
-button,
-input {
+button,input {
   all: unset;
   border: 1px solid green;
-  border-radius: 10px;
-  padding: 10px 20px;
+  border-radius: 12px;
+  padding: 10px 22px;
   text-align: center;
-  margin: 5px 0;
+  margin: 6px 0;
 }
 button {
-  background-color: rgb(30, 200, 250);
+  background-color: rgb(30, 200, 258);
 }
